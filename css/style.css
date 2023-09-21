@@ -9,10 +9,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-i {
-    color: white;
-    text-align: center;
-}
 
 p{
     color: white;
@@ -30,8 +26,7 @@ p{
 .container {
     width: 90%;
     margin: 0 auto;
-    /* Debug */
-
+    overflow-y: auto;
 }
 
 .flex {
@@ -41,6 +36,27 @@ p{
 }
 
 /* MAIN */
+.top-icon {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: white;
+    font-size: .8rem;
+}
+
+.view {
+    margin-right: 5px;
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.expand {
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 .icon-item {
     width: calc(97% / 7);
@@ -78,6 +94,7 @@ p{
 }
 
 .btn {
+    color: white;
     font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
@@ -86,6 +103,10 @@ p{
 .f-icon {
     text-align: center;
     
+}
+
+.fa-angle-up {
+    color: white;
 }
 
 .green {
