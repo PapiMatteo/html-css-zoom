@@ -9,20 +9,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+i {
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
 /* COMMON */
 .wrapper {
     width: 100%;
     height: 100vh;
     background-color: black;
-    padding-top: 60px;
+    padding-top: 100px;
+    position: relative;
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
     /* Debug */
-    min-height: 800px;
-    border: 1px solid white;
+
 }
 
 .flex {
@@ -54,4 +63,43 @@ body{
     position: absolute;
     bottom: 10px;
     left: 0;
+}
+
+/* FOOTER BAR */
+.f-container {
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.f-icon {
+    text-align: center;
+    
+}
+
+.green {
+    color: green;
+}
+
+.f-col {
+    padding-left: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+.exit-btn {
+    color: red;
+    background-color: #4a4a4a;
+    padding: 30px 20px;
 }
